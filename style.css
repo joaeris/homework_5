@@ -181,5 +181,23 @@ h4 {
 }
 
 h1 {
+    float: right;
+    margin: 50px;
+    margin-right: 100px;
+    font-family:Sulphur Point;
+    font-style:normal;
+    font-weight:400;
+    text-align: center;
+    font-size:48px;  
+}
+
+.settings{
     position: absolute;
+    margin: 150px;
+    margin-left: 60%;
+    font-family:Sulphur Point;
+    font-style:normal;
+    font-weight:400;
+    text-align: center;
+    font-size:48px;  
 }
