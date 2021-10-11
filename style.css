@@ -27,16 +27,14 @@ body {
     text-align: center;
 }
 
-.topNav {
-    column-count: 6;
-    background-color: white;
-    position:relative;
-    position: absolute;
-    float: left;
-    margin: 20px;
-    list-style-type: none;
-}
 
+.searchandmore {
+    height: 50px;
+    margin: 0 auto;
+    float: left;
+    list-style-type: none;
+    
+}
 
 nav {
     background-color: #ADADAD;
