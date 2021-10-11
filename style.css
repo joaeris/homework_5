@@ -22,10 +22,9 @@ body {
     float: left;
 }
 
-#logo {
-    width: 50%;
-    float: none;
-    margin: 10px;
+
+.logoOverall {
+    text-align: center;
 }
 
 .topNav {
@@ -89,9 +88,18 @@ li a:hover{
 }
 
 .servicesButtons{
-    display: inline-block;
-
+    column-count: 3;
+    column-gap: 200px;
+    float: left;
+    text-align: center;
+    margin: 10px;
+    margin-left: 40px;
 }
+
+.pillow {
+    text-align: center;
+}
+
 
 
 
