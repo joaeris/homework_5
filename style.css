@@ -28,20 +28,15 @@ body {
 }
 
 .topNav {
+    column-count: 6;
     background-color: white;
     position:relative;
     position: absolute;
     float: left;
-    margin: 10px;
+    margin: 20px;
+    list-style-type: none;
 }
 
-.searchandmore {
-    height: 50px;
-    margin: 0 auto;
-    float: left;
-    list-style-type: none;
-    
-}
 
 nav {
     background-color: #ADADAD;
@@ -98,8 +93,50 @@ li a:hover{
 
 .pillow {
     text-align: center;
+    position: relative;
+    color: white;
 }
 
+.top-left {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    font-family: Noto Serif;
+    font-size:24px;
+    font-weight:400;
+  }
 
+  .top-leftunder {
+    position: absolute;
+    top: 45%;
+    left: 12%;
+    font-family: Source Code Pro;
+    margin-top: 5px;
+    font-size:18px;
+    font-weight:400;
+  }
 
+  .top-leftunderthat {
+    position: absolute;
+    top: 48%;
+    left: 15%;
+    font-family: Source Code Pro;
+    margin-top: 10px;
+    font-size:14px;
+    font-weight:400;
+  }
+
+  .top-leftunderthatorder {
+    text-decoration: none;
+    position: absolute;
+    top: 55%;
+    left:21%;
+    font-family: Source Code Pro;
+    margin-top: 10px;
+    font-size:18px;
+    font-weight:400;
+    color: white;
+    display: block;
+    box-shadow: none;
+  }
 
