@@ -174,3 +174,12 @@ h4 {
     font-size:34px;  
 }
 
+.roundpillow {
+    position: absolute;
+    padding: 0; 
+    margin: 50px;
+}
+
+h1 {
+    position: absolute;
+}
